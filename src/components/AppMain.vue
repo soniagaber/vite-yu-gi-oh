@@ -1,5 +1,6 @@
 <script>
 import { store } from '../store';
+import axios from "axios";
 import AppCard from './AppCard.vue';
 
 export default{
@@ -10,8 +11,8 @@ export default{
         }
     },
     components:{
-        AppCard
-    }
+    AppCard,
+},
 }</script>
 
 
